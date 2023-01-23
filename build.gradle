@@ -21,7 +21,10 @@ dependencies {
     compileOnly("org.graalvm.nativeimage:svm")
 
     implementation("io.micronaut:micronaut-validation")
-    implementation 'net.sf.saxon:Saxon-HE:12.0'
+    implementation("net.sf.saxon:Saxon-HE:12.0")    
+    implementation("io.micronaut.cache:micronaut-cache-caffeine")
+    implementation("io.micronaut.sql:micronaut-jdbc-hikari")
+    implementation("io.swagger.core.v3:swagger-annotations")
 }
 
 
